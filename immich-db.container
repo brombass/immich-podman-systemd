@@ -18,3 +18,8 @@ Notify=healthy
 
 [Service]
 Restart=always
+
+[Unit]
+After=home-morten-immich.mount
+Wants=home-morten-immich.mount
+
