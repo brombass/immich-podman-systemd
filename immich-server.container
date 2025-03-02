@@ -7,7 +7,7 @@ Pod=immich.pod
 ContainerName=immich-server
 EnvironmentFile=%h/immich/immich.env
 #UserNS=keep-id:uid=1001,gid=999
-Image=ghcr.io/immich-app/immich-server:v1.126.1
+Image=ghcr.io/immich-app/immich-server:v1.128.0
 Volume=%h/immich/library:/usr/src/app/upload:z
 
 # If localtime is not set (e.g. Fedora CoreOS) : 
